@@ -10,7 +10,7 @@ body {
 
 .hero-section {
     /* min-height: 100vh; */
-    /* background-color: #f99501; */
+    background-color: #082f5e;
     background-image: url(/Images/Hero\ section.png);
     background-size: cover;
     background-repeat: no-repeat;
