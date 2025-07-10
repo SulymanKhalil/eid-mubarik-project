@@ -42,7 +42,7 @@ audio::-webkit-media-controls-panel {
 
 .meal-time-section {
     background-color: #084b82;
-    padding-top: 1em;
+    padding-block: 1em;
     padding-inline: 1rem;
 }
 
@@ -120,9 +120,13 @@ audio::-webkit-media-controls-panel {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.thank-you-text {
+    max-width: 900px;
+    margin-inline: auto;
+}
+
 .thank-you-text p {
     color: white;
-    font-family: "Salsa", cursive;
     font-size: 24px;
 }
 
