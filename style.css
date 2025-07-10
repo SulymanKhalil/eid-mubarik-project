@@ -134,6 +134,12 @@ audio::-webkit-media-controls-panel {
     text-align: left;
 }
 
+.developer-name {
+    font-size: 16px;
+    text-align: right;
+    color: white;
+}
+
 @media (max-width: 840px) {
     .first-lantern {
         display: block;
