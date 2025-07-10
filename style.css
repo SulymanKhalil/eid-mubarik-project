@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: "Salsa", cursive;
+}
+
+.jhalar {
+    width: 220px;
+    margin-bottom: -200px;
+}
+
+.hero-section {
+    /* min-height: 100vh; */
+    /* background-color: #f99501; */
+    background-image: url(/Images/Hero\ section.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paragraph-and-audio {
+    margin-left: 15rem;
+}
+
+.hero-section p {
+    color: white;
+    font-size: 46px;
+    max-width: 550px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(238, 228, 213);
+}
+
+.audio-container {
+    background-color: rgb(238, 228, 213);
+    max-width: max-content;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.meal-time-section {
+    background-color: #084b82;
+    padding-top: 1em;
+    padding-inline: 1rem;
+}
+
+.meal-time-img {
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.horizontal-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 800px;
+    margin-inline: auto;
+    margin-bottom: 1.5rem;
+}
+
+.horizontal-line {
+    height: 2px;
+    background-color: #fbd8a4;
+    width: 468px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fbd8a4;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+
+.meal-time-section h2 {
+    font-family: "Style Script", cursive;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.white-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+.white-card {
+    max-width: 500px;
+    background-color: white;
+    padding: 4rem;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.white-card p {
+    font-size: 2rem;
+}
+
+.cartoon-girl {
+    max-width: 330px;
+    margin-left: -7rem;
+}
+
+.greetings-card img {
+    border-radius: 24px;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    margin-inline: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.thank-you-text p {
+    color: white;
+    font-family: "Salsa", cursive;
+    font-size: 24px;
+}
+
+.thank-you-text h2 {
+    text-align: left;
+}
+
+@media (max-width: 840px) {
+    .first-lantern {
+        display: block;
+        margin-left: auto;
+    }
+
+    .second-lantern,
+    .beats-img,
+    .music-text {
+        display: none;
+    }
+
+    .paragraph-and-audio {
+        margin-left: 1rem;
+    }
+
+    .jhalar {
+        margin-bottom: 0;
+    }
+
+    .hero-section p {
+        font-size: 32px;
+    }
+
+    .white-card {
+        padding-block: 1rem;
+        padding-left: 1.5rem;
+    }
+
+    .white-card p {
+        font-size: 1.25rem;
+    }
+
+    .cartoon-girl {
+        max-width: 230px;
+        margin-left: -7rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .hero-section p {
+        font-size: 24px;
+    }
+
+    .first-lantern {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .meal-time-section h2 {
+        font-size: 32px;
+    }
+
+    .white-card p {
+        font-size: 1rem;
+    }
+}
